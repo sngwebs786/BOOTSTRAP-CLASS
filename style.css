@@ -23,11 +23,6 @@
 }
 
 
-@media only screen and (max-width: 600px) {
-  body {
-    background-color: lightblue;
-  }
-}
 
 
 
@@ -36,3 +31,41 @@
     height: 50px;
     border-radius: 25px !important;
 }
+
+
+
+/* FLEXBOX */
+
+
+.my-div{
+    height: 400px;
+    width: 900px;
+    margin: 10px;
+}
+    
+.mainDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
+@media only screen and (max-width: 900px) {
+ .my-div{
+     background-color: red;
+ }
+}
+
+
+@media only screen and (max-width: 600px) {
+ .my-div{
+    font-size: 50px;
+}
+}
+
+
+@media only screen and (max-width: 600px) {
+ .my-div{
+    font-size: 50px;
+}}
